@@ -1,0 +1,27 @@
+{
+	"compilerOptions": {
+		"target": "ES2022",
+		"module": "Node16",
+		"lib": ["ES2023"],
+		"moduleResolution": "node16",
+		"outDir": "build",
+
+		/* Interop Constraints */
+		// "isolatedModules": true,                          /* Ensure that each file can be safely transpiled without relying on other imports. */
+		// "isolatedDeclarations": true,                     /* Require sufficient annotation on exports so other tools can trivially generate declaration files. */
+		// "verbatimModuleSyntax": true,                     /* Do not transform or elide any imports or exports not marked as type-only, ensuring they are written in the output file's format based on the 'module' setting. */
+		"esModuleInterop": true,
+		"forceConsistentCasingInFileNames": true,
+
+		"strict": true,
+		"alwaysStrict": true,
+		"noImplicitAny": true,
+		"noImplicitThis": true,
+		"noImplicitOverride": true,
+		"noFallthroughCasesInSwitch": true,
+		"exactOptionalPropertyTypes": true,
+
+		"skipLibCheck": true
+	},
+	"include": ["src/**/*.ts"]
+}
